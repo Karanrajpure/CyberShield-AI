@@ -1,0 +1,4 @@
+CyberShield AI — latest website source, including Vercel deployment configuration.
+Secrets, environment files, installed dependencies, generated output, repository metadata, and live account data are excluded.
+This is a source export, not a backup of the hosted database. Authentication, AI, VirusTotal and Cloud services need their existing hosted configuration; they do not automatically transfer to a new host.
+Extract before uploading to GitHub. Keep package.json, bun.lock, vite.config.ts, vercel.json and src at the repository root. See README.md for deployment instructions.

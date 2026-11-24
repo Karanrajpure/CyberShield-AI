@@ -1,0 +1,2 @@
+ALTER TABLE public.threat_alerts ADD COLUMN recommended_action TEXT, ADD COLUMN fetched_at TIMESTAMPTZ NOT NULL DEFAULT now(), ADD COLUMN category TEXT;
+CREATE INDEX threat_alerts_fetched ON public.threat_alerts (fetched_at DESC);

@@ -1,0 +1,20 @@
+# CyberShield AI roadmap
+- [x] Sweep deployment entry resolution across all page declarations, secure operations, CISA refresh, reminders, database trigger functions, and animation loaders; local-import completeness and hosting regression tests added; 63 tests pass; live Vercel service settings remain unverified
+- [x] Validate explicit router/start/server entries and Vercel deployment configuration; managed build OK, 60 tests pass, home opens without runtime errors; application features unchanged
+- [ ] Verify production output on Vercel (blocked: no access to the user's GitHub upload or Vercel deployment; deploy the complete updated source with the documented root directory)
+- [x] Add guest-first local link/message checks and privacy assessment with a post-result Google sign-up prompt; visitor scan/history/sign-out verified and 57 tests pass; no extra visitor profile rows
+- [ ] Verify the Google provider consent round trip (blocked: requires a real visitor's Google consent; visitor account access and saved records tested with a temporary account)
+- [x] Replace separate app login with verified Lovable workspace identity across pages, saved data and server operations; 47 tests pass and anonymous desktop/mobile access is blocked
+- [ ] Verify signed-in Lovable dashboard and saved-data flow end-to-end (blocked: sandbox browser has no Lovable identity token; user preview must supply the platform session)
+- [x] Phase 1: Landing, branding, auth (email/password, Google, Lovable, reset), responsive app shell, profiles, settings basics
+- [x] Phase 2: All tables + RLS, real dashboard stats and charts
+- [x] Phase 3: URL scanner, phishing detector, scan history (Safe Browsing key pending from user)
+- [x] Phase 4: AI assistant (threads saved per user), threat intelligence (CISA KEV feed)
+- [x] Phase 5: Privacy checker with saved scores and recommendations; eight Academy lessons, quizzes, saved progress and badges; signed-in desktop/mobile testing
+- [x] Phase 6: PDF reports + private storage, pricing usage tracking, avatar upload, data export, account deletion, PWA icons
+- [x] Scroll-driven 3D story on landing page
+- [x] Production audit: inspect modules and verify scanners, AI, history, dashboard and owner isolation; remaining release checks recorded in AUDIT.md
+- [x] Harden password recovery and session handling; missing-link and sign-out checks passed
+- [x] Harden provider verdicts, validation and authoritative saved results; forgery attempts denied
+- [x] Verify AI phishing and assistant flows with persisted results
+- [x] Configure and verify VirusTotal using the securely supplied key
